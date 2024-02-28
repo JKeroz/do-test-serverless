@@ -1,0 +1,19 @@
+parameters: {}
+environment: {}
+packages:
+    - name: api
+      shared: false
+      environment: {}
+      parameters: {}
+      annotations: {}
+      functions:
+        - name: players
+          binary: false
+          main: ""
+          runtime: nodejs:18
+          web: true
+          webSecure: "Super duper secret"
+          parameters: { }
+          environment: { }
+          annotations: { }
+          limits: { }

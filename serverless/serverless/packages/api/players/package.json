@@ -1,0 +1,10 @@
+{
+    "name": "players",
+    "version": "1.0.1",
+    "description": "Fetches teams from the database",
+    "main": "players.mjs",
+    "dependencies": {
+        "mysql2": "^3.9.2"
+    },
+    "devDependencies": {}
+}
